@@ -4,12 +4,18 @@
 
 table {
     border-collapse: collapse;
+    box-shadow: 24px 24px 24px lightblue;
+    border-color: lightblue;
+    border-style: double;
+    border-width: 5px;
+    padding: 0.5em 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
+th {
+    border: 1px solid lightblue;
+    border-color: lightblue;
 }
 
 thead {
@@ -18,6 +24,25 @@ thead {
     color: white;
     font-size: 1.5em;
     text-shadow: 1px 1px 0px black;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: lightblue;
+}
+
+tbody {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: lightblue;
+}
+
+tr {
+
+    border-width: 5px;
+    border-color: lightblue;
+    border-top: dotted lightblue;
+    border-bottom: dotted lightblue;
 }
 
 tfoot {
